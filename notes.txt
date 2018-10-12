@@ -1,0 +1,5 @@
+Stack used for this program.
+React
+Apollo
+Apollo Yoga
+Next.js
