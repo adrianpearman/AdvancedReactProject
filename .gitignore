@@ -1,2 +1,10 @@
 notes.txt
 node_modules
+Advanced-React-master
+.DS_Store
+*.log
+haters/
+.next/
+.build/
+layout.md
+variables.env
