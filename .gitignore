@@ -5,7 +5,7 @@ Advanced-React-master
 *.log
 haters/
 .next/
-sick-fits/frontend/.next/
+.sick-fits/frontend/.next/
 .build/
 layout.md
 variables.env
