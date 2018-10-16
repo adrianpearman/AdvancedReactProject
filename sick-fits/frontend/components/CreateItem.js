@@ -33,6 +33,7 @@ class CreateItem extends Component {
     image: '',
     largerImage: '',
     price: 0,
+    disable: true
   }
 
   handleChange = (e) => {
@@ -58,7 +59,8 @@ class CreateItem extends Component {
 
     this.setState({
       image: file.secure_url,
-      largerImage: file.eager[0].secure_url
+      largerImage: file.eager[0].secure_url,
+      disable: false
     })
   }
 
@@ -130,7 +132,7 @@ class CreateItem extends Component {
                 value={this.state.description}
               />
             </label>
-            <button type='submit'>Submit</button>
+            <button type='submit' disabled={this.state.disable}>Submit</button>
           </fieldset>
         </Form>
         )}
